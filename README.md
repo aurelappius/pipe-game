@@ -14,7 +14,7 @@ All visual assets were created by me using inkscape. The sound files are from fr
 ## Ad Plugin and Permium Version
 I hoped to generate a very low passive income by using ad revenue on the app. Due to the very low number of players, the profit was not very high. A plugin is used to show a small ad after each level is completed. Additionally, there exists an option to purchase a premium version which deactivates the ads.
 
-## Screenshot and Video
+## Gameplay
 
 A video of the gameplay can be seen on [youtube](https://youtu.be/S9kMsL2g9cM).
 
