@@ -1,0 +1,14 @@
+xxxhdpi:192 - 432
+xxhdpi:	144 - 324
+xhdpi:	96 - 216
+mdpi:	48 - 108
+hdpi:	72 - 162
+
+
+
+checkliste
+
+admob.init testmode
+
+
+

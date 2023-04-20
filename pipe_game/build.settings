@@ -1,0 +1,71 @@
+--
+-- For more information on build.settings, see the Project Build Settings guide at:
+-- https://docs.coronalabs.com/guide/distribution/buildSettings
+--
+
+settings =
+{
+	orientation =
+	{
+		-- Supported values for orientation:
+		-- portrait, portraitUpsideDown, landscapeLeft, landscapeRight
+		default = "landscapeRight",
+		supported = { "landscapeRight", },
+	},
+
+	--
+	-- Android section
+	--
+	android =
+	{
+		usesPermissions =
+		{
+			"android.permission.INTERNET",
+			"android.permission.ACCESS_NETWORK_STATE"
+		},
+		applicationChildElements =
+    {
+      [[
+          <meta-data android:name="com.google.android.gms.ads.AdActivity"
+              android:value="ca-app-pub-3940256099942544~3347511713"/>  -- replace with your app id. See: https://goo.gl/fQ2neu
+     	]],
+    },
+	},
+
+	--
+	-- iOS section
+	--
+	iphone =
+	{
+		xcassets = "Images.xcassets",
+		plist =
+		{
+			UIStatusBarHidden = false,
+			UILaunchStoryboardName = "LaunchScreen",
+			CFBundleDisplayName = "Pipes",
+      CFBundleName = "Pipes",
+			NSUserTrackingUsageDescription = "This would allow the app to advertise better.",
+			GADApplicationIdentifier = "ca-app-pub-5427361289209198~9544581246",
+      SKAdNetworkItems = {	{	SKAdNetworkIdentifier = "cstr6suwn9.skadnetwork",	}, },
+		},
+	},
+
+	--
+	-- Plugins section
+	--
+	plugins =
+	{
+		["plugin.admob"] = {publisherId = "com.coronalabs"},
+	--	['plugin.att'] = { publisherId = 'com.solar2d' },
+	},
+
+	--
+	-- Project section
+	--
+	excludeFiles =
+	{
+		-- Exclude unnecessary files for each platform
+		all = { "Icon.png", "Icon-*dpi.png", "Images.xcassets", },
+		android = { "LaunchScreen.storyboardc", },
+	},
+}

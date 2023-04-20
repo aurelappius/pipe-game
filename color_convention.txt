@@ -1,0 +1,10 @@
+	grey	blue	red	yellow
+pipes	0	1	2	3
+vert	00	01	02	03
+	10	11	12	13
+	20	21	22	23
+	30	31	32	33
+
+100 		colortype crosss
+x%100-x%10 	color of vertical
+x%10		color of horizontal

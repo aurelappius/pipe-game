@@ -1,0 +1,14 @@
+tiles:
+1 = horiz
+2 = vert
+3 = up right
+4 = down right
+5 = down left
+6 = up left
+7 = crossing
+8 = empty
+9 = stone
+
+progress:
+0 - undiscovered
+1 - completed

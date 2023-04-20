@@ -1,0 +1,12 @@
+music: (attribution license)
+menu:	http://soundimage.org/wp-content/uploads/2016/02/Game-Menu_Looping.mp3
+game:	https://soundimage.org/wp-content/uploads/2019/01/Puzzle-Tune_Looping.mp3
+
+
+sound effects: (creative commons 0)
+
+swipe:		https://freesound.org/people/qubodup/sounds/60007/
+click/tile:	https://freesound.org/people/moogy73/packs/24153/
+explosion: 	https://freesound.org/people/florianreichelt/sounds/459973/
+error:		https://freesound.org/people/philRacoIndie/sounds/551543/
+
